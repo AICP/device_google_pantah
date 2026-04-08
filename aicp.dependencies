@@ -1,8 +1,14 @@
 [
   {
+
     "repository":  "LineageOS/android_device_google_gs201",
     "target_path": "device/google/gs201",
     "branch":      "lineage-23.2"
+  },
+  {
+    "repository":  "AICP/packages_apps_PixelParts",
+    "target_path": "packages/apps/PixelParts",
+    "branch":      "w16.2"
   },
   {
     "repository":  "LineageOS/android_device_google_gs-common",
