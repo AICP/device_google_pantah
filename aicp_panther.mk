@@ -10,6 +10,9 @@ $(call inherit-product, vendor/aicp/config/common_full_phone.mk)
 # Opt in to scudo
 PRODUCT_USE_SCUDO := true
 
+PRODUCT_PACKAGES += \
+    BatteryStatsViewer
+
 # Inherit device configuration
 DEVICE_CODENAME := panther
 DEVICE_PATH := device/google/pantah
