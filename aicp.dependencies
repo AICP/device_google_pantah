@@ -18,5 +18,10 @@
     "repository":  "LineageOS/android_device_google_pantah-kernels",
     "target_path": "device/google/pantah-kernels",
     "branch":      "lineage-23.2"
+  },
+  {
+    "repository":  "AICP/packages_apps_ColumbusService",
+    "target_path": "packages/apps/ColumbusService",
+    "branch":      "w16.2"
   }
 ]

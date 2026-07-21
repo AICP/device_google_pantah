@@ -11,7 +11,8 @@ $(call inherit-product, vendor/aicp/config/common_full_phone.mk)
 PRODUCT_USE_SCUDO := true
 
 PRODUCT_PACKAGES += \
-    BatteryStatsViewer
+    BatteryStatsViewer \
+    ColumbusService
 
 # Inherit device configuration
 DEVICE_CODENAME := cheetah
